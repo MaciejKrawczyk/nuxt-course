@@ -17,4 +17,7 @@ import {useCounter} from "~/composables/states";
 
 const counter = useCounter()
 
+console.log(await $fetch('/api/hello'))
+
+
 </script>

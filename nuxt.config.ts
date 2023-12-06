@@ -2,6 +2,9 @@
 import { resolve } from 'path'
 
 export default defineNuxtConfig({
+  hooks: {
+    ready: (ctx) => console.log(ctx)
+  },
   devtools: {
     enabled: true
   },
